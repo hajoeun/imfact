@@ -9,5 +9,15 @@
 </head>
 <body>
   <h1>Imfact introduction page</h1>
+
+  <div class="hello"></div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(function() {
+      console.log($('.hello').attr('class'));
+      $('.hello').attr('id', 'good');
+    })
+  </script>
 </body>
 </html>
